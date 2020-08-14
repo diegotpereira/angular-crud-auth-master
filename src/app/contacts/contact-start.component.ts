@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-contacts-start',
   template: `
-    <p>Select a contact</p>
+    <p>Selecione um contato</p>
   `,
   styles: []
 })

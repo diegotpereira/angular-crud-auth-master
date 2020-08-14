@@ -37,11 +37,11 @@ export class ContactFormComponent implements OnInit, OnDestroy, ComponentCanDeac
           this.contactIndex = +params['id'];
           this.contactsService.get(this.contactIndex)
           .subscribe(data => this.contact = data);
-          this.title = 'Edit contact';
+          this.title = 'Editar contatos';
         } else {
           this.isNew = true;
           this.contact = new Contact();
-          this.title = 'New contact';
+          this.title = 'Novo Contato';
         }
         this.initForm();
       }
